@@ -213,7 +213,7 @@ interface TeamMember {
   // URL for the sponsor page for the member.
   sponsor?: string
 
-  // Text for the sponsor link. Defaults to 'Sponsor'.
+  // Text for the sponsor link. Defaults to 'Sponsor'. NB: actionText porp doesn't works. it still 'Sponsor' when i change word
   actionText?: string
 }
 ```
